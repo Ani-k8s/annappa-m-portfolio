@@ -29,7 +29,7 @@ export function Particles() {
         if (p.y < 0 || p.y > c.height) p.vy *= -1;
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r * devicePixelRatio, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(125, 180, 255, 0.55)";
+        ctx.fillStyle = "rgba(255, 200, 90, 0.6)";
         ctx.fill();
       }
       for (let i = 0; i < N; i++) {
@@ -37,7 +37,7 @@ export function Particles() {
           const dx = pts[i].x - pts[j].x, dy = pts[i].y - pts[j].y;
           const d = Math.hypot(dx, dy);
           if (d < 130 * devicePixelRatio) {
-            ctx.strokeStyle = `rgba(140, 120, 255, ${0.18 * (1 - d / (130 * devicePixelRatio))})`;
+            ctx.strokeStyle = `rgba(255, 90, 60, ${0.22 * (1 - d / (130 * devicePixelRatio))})`;
             ctx.lineWidth = devicePixelRatio * 0.6;
             ctx.beginPath();
             ctx.moveTo(pts[i].x, pts[i].y);

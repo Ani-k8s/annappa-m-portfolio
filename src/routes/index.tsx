@@ -213,7 +213,7 @@ function Hero() {
 
           <Reveal delay={550}>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
-              <a href="#contact" className="group inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-accent text-primary-foreground font-medium shadow-[0_0_40px_oklch(0.72_0.18_250/0.4)] hover:shadow-[0_0_60px_oklch(0.7_0.25_295/0.55)] transition-all hover:scale-105">
+              <a href="#contact" className="group inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary via-amber-500 to-accent text-primary-foreground font-semibold shadow-[0_0_40px_oklch(0.82_0.17_85/0.5)] hover:shadow-[0_0_70px_oklch(0.62_0.24_25/0.7)] transition-all hover:scale-105">
                 <Download className="w-4 h-4" /> Download Resume
               </a>
               <a href="#contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl glass glass-hover font-medium">
@@ -378,7 +378,7 @@ function Experience() {
           {EXPERIENCE.map((e, i) => (
             <Reveal key={i}>
               <div className="relative pl-12 sm:pl-0 sm:grid sm:grid-cols-2 sm:gap-10 mb-10">
-                <div className="absolute left-2 sm:left-1/2 top-6 -translate-x-1/2 w-4 h-4 rounded-full bg-primary shadow-[0_0_20px_oklch(0.72_0.2_250/0.7)]" />
+                <div className="absolute left-2 sm:left-1/2 top-6 -translate-x-1/2 w-4 h-4 rounded-full bg-primary shadow-[0_0_20px_oklch(0.82_0.17_85/0.8)]" />
                 <div className="hidden sm:block sm:text-right sm:pr-10">
                   <div className="text-xs uppercase tracking-widest text-primary mb-2">{e.period}</div>
                   <div className="font-display font-semibold text-xl">{e.company}</div>
