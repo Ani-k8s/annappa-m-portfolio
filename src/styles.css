@@ -136,8 +136,8 @@
   50% { transform: translateY(-20px) translateX(10px); }
 }
 @keyframes pulseGlow {
-  0%, 100% { box-shadow: 0 0 20px oklch(0.72 0.2 250 / 0.4); }
-  50% { box-shadow: 0 0 50px oklch(0.7 0.25 295 / 0.7); }
+  0%, 100% { box-shadow: 0 0 20px oklch(0.82 0.17 85 / 0.45); }
+  50% { box-shadow: 0 0 50px oklch(0.62 0.24 25 / 0.7); }
 }
 @keyframes gradientShift {
   0%, 100% { background-position: 0% 50%; }
