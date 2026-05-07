@@ -112,7 +112,7 @@
                 var(--gradient-border) border-box;
     border: 1px solid transparent;
   }
-  .glow-text { text-shadow: 0 0 30px oklch(0.72 0.2 250 / 0.6), 0 0 60px oklch(0.7 0.25 295 / 0.3); }
+  .glow-text { text-shadow: 0 0 30px oklch(0.82 0.17 85 / 0.6), 0 0 60px oklch(0.62 0.24 25 / 0.35); }
   .hero-bg { background: var(--gradient-hero); }
   .grid-bg {
     background-image:
