@@ -75,7 +75,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { title: "Annappa M — Senior DevOps Engineer | SRE | Platform Engineer" },
       { name: "description", content: "Portfolio of Annappa M — Senior DevOps Engineer with 8.5+ years building scalable cloud infrastructure, Kubernetes, AWS, and CI/CD systems." },
       { name: "author", content: "Annappa M" },
-      { name: "theme-color", content: "#0b1220" },
+      { name: "theme-color", content: "#1a0a05" },
       { property: "og:title", content: "Annappa M — Senior DevOps Engineer" },
       { property: "og:description", content: "Building scalable cloud infrastructure and production-grade DevOps systems." },
       { property: "og:type", content: "website" },
