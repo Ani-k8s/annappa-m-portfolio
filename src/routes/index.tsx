@@ -108,9 +108,8 @@ function Nav() {
   }, []);
   return (
     <header
-      className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${
-        scrolled ? "py-3" : "py-5"
-      }`}
+      className={`fixed top-0 inset-x-0 z-50 transition-all duration-500 ${scrolled ? "py-3" : "py-5"
+        }`}
     >
       <div className={`mx-auto max-w-7xl px-4 sm:px-6 ${scrolled ? "" : ""}`}>
         <div className={`glass rounded-2xl px-4 sm:px-6 py-3 flex items-center justify-between transition-all ${scrolled ? "shadow-2xl" : ""}`}>
@@ -213,8 +212,13 @@ function Hero() {
 
           <Reveal delay={550}>
             <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
-              <a href="#contact" className="group inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary via-amber-500 to-accent text-primary-foreground font-semibold shadow-[0_0_40px_oklch(0.82_0.17_85/0.5)] hover:shadow-[0_0_70px_oklch(0.62_0.24_25/0.7)] transition-all hover:scale-105">
-                <Download className="w-4 h-4" /> Download Resume
+              <a
+                href="/Annappa_Master_Resume.pdf"
+                download
+                className="group inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary via-amber-500 to-accent text-primary-foreground font-semibold shadow-[0_0_40px_oklch(0.82_0.17_85/0.5)] hover:shadow-[0_0_70px_oklch(0.62_0.24_25/0.7)] transition-all hover:scale-105"
+              >
+                <Download className="w-4 h-4" />
+                Download Resume
               </a>
               <a href="#contact" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl glass glass-hover font-medium">
                 <Mail className="w-4 h-4" /> Contact Me
@@ -344,7 +348,7 @@ function Skills() {
               <Reveal key={s.cat} delay={i * 70}>
                 <div className="group relative glass glass-hover rounded-2xl p-6 h-full overflow-hidden">
                   <div className="absolute -inset-px rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none"
-                       style={{ background: "var(--gradient-border)", filter: "blur(20px)", zIndex: -1 }} />
+                    style={{ background: "var(--gradient-border)", filter: "blur(20px)", zIndex: -1 }} />
                   <div className="flex items-center gap-3 mb-5">
                     <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary/30 to-accent/30 flex items-center justify-center">
                       <Icon className="w-5 h-5 text-primary" />
@@ -503,10 +507,10 @@ function Contact() {
 
               <div className="mt-10 grid sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
                 {[
-                  { icon: Mail, label: "Email", value: "annappa.m@example.com", href: "mailto:annappa.m@example.com" },
-                  { icon: Linkedin, label: "LinkedIn", value: "linkedin.com/in/annappa", href: "https://linkedin.com" },
-                  { icon: Github, label: "GitHub", value: "github.com/annappa", href: "https://github.com" },
-                  { icon: MessageCircle, label: "WhatsApp", value: "Chat directly", href: "https://wa.me/910000000000" },
+                  { icon: Mail, label: "Email", value: "annappabca@gmail.com", href: "mailto:annappabca@gmail.com" },
+                  { icon: Linkedin, label: "LinkedIn", value: "https://www.linkedin.com/in/annappam7778/", href: "https://www.linkedin.com/in/annappam7778/" },
+                  { icon: Github, label: "GitHub", value: "https://github.com/Ani-k8s", href: "https://github.com" },
+                  { icon: MessageCircle, label: "WhatsApp", value: "Chat directly", href: "https://wa.me/919900657021" },
                 ].map((c) => {
                   const Icon = c.icon;
                   return (
@@ -524,10 +528,15 @@ function Contact() {
               </div>
 
               <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
-                <a href="#" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-accent text-primary-foreground font-medium shadow-[0_0_40px_oklch(0.72_0.18_250/0.4)] hover:scale-105 transition-transform">
-                  <Download className="w-4 h-4" /> Download Resume
+                <a
+                  href="/Annappa_Master_Resume.pdf"
+                  download
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-primary to-accent text-primary-foreground font-medium shadow-[0_0_40px_oklch(0.72_0.18_250/0.4)] hover:scale-105 transition-transform"
+                >
+                  <Download className="w-4 h-4" />
+                  Download Resume
                 </a>
-                <a href="https://wa.me/910000000000" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl glass glass-hover font-medium">
+                <a href="https://wa.me/919900657021" className="inline-flex items-center gap-2 px-6 py-3 rounded-xl glass glass-hover font-medium">
                   <MessageCircle className="w-4 h-4" /> WhatsApp Me
                 </a>
               </div>
