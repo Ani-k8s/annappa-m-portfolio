@@ -378,7 +378,7 @@ function Experience() {
           {EXPERIENCE.map((e, i) => (
             <Reveal key={i}>
               <div className="relative pl-12 sm:pl-0 sm:grid sm:grid-cols-2 sm:gap-10 mb-10">
-                <div className="absolute left-2 sm:left-1/2 top-6 -translate-x-1/2 w-4 h-4 rounded-full bg-primary shadow-[0_0_20px_oklch(0.72_0.2_250/0.7)]" />
+                <div className="absolute left-2 sm:left-1/2 top-6 -translate-x-1/2 w-4 h-4 rounded-full bg-primary shadow-[0_0_20px_oklch(0.82_0.17_85/0.8)]" />
                 <div className="hidden sm:block sm:text-right sm:pr-10">
                   <div className="text-xs uppercase tracking-widest text-primary mb-2">{e.period}</div>
                   <div className="font-display font-semibold text-xl">{e.company}</div>
