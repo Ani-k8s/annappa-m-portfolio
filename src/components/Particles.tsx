@@ -37,7 +37,7 @@ export function Particles() {
           const dx = pts[i].x - pts[j].x, dy = pts[i].y - pts[j].y;
           const d = Math.hypot(dx, dy);
           if (d < 130 * devicePixelRatio) {
-            ctx.strokeStyle = `rgba(140, 120, 255, ${0.18 * (1 - d / (130 * devicePixelRatio))})`;
+            ctx.strokeStyle = `rgba(255, 90, 60, ${0.22 * (1 - d / (130 * devicePixelRatio))})`;
             ctx.lineWidth = devicePixelRatio * 0.6;
             ctx.beginPath();
             ctx.moveTo(pts[i].x, pts[i].y);
