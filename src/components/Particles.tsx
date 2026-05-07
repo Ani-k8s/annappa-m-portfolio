@@ -29,7 +29,7 @@ export function Particles() {
         if (p.y < 0 || p.y > c.height) p.vy *= -1;
         ctx.beginPath();
         ctx.arc(p.x, p.y, p.r * devicePixelRatio, 0, Math.PI * 2);
-        ctx.fillStyle = "rgba(125, 180, 255, 0.55)";
+        ctx.fillStyle = "rgba(255, 200, 90, 0.6)";
         ctx.fill();
       }
       for (let i = 0; i < N; i++) {
