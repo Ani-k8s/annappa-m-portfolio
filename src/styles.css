@@ -108,7 +108,7 @@
   }
   .grad-border {
     position: relative;
-    background: linear-gradient(oklch(0.13 0.03 265), oklch(0.13 0.03 265)) padding-box,
+    background: linear-gradient(oklch(0.11 0.03 35), oklch(0.11 0.03 35)) padding-box,
                 var(--gradient-border) border-box;
     border: 1px solid transparent;
   }
